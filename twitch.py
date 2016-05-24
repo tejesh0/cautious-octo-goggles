@@ -5,6 +5,8 @@ import pickle
 import urllib
 import json
 import requests
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
 
 # from celery import Celery
 # app = Celery('tasks', broker='redis://localhost')
